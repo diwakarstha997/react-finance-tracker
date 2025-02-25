@@ -1,0 +1,97 @@
+/* Gilroy font import */
+@import url(https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css
+);
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Flexbox default */
+.flex-container {
+    display: flex;
+}
+
+
+/*** Landing Page CSS ***/
+
+/* Navbar container */
+.navbar {
+    padding: 25px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo small and large */
+.logo {
+    font-weight: bold;
+    gap: 10px;
+}
+
+.logo-box {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-box > img {
+    border-radius: 0% 50% 50% 50%;
+} 
+
+.logo-text {
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
+
+.logo-sm {
+    font-size: 20px;
+}
+
+.logo-lg {
+    font-size: 32px;
+}
+
+/* Nav Menu CSS */
+.menu > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 2vw;
+}
+
+
+/* Login and Signup wrapper */
+.call-to-action {
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+/* Login Buttom */
+.login-btn {
+    text-decoration: none;
+    color: black;
+ }
+
+/* Get Started Button small and large  */
+.get-started-btn {
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #121212;
+    color: white;
+}
+
+.get-started-btn-sm {
+    padding: 10px 20px;
+}
+
+.get-started-btn-lg {
+    font-size: 24px;
+    padding: 20px 40px;
+}
